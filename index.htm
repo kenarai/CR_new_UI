@@ -3,17 +3,17 @@
 <head>
 	<meta charset="utf-8" />
 	<title>jInvertScroll Demo Page</title>
-    <link rel="stylesheet" href="css/example.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
     <link data-require="bootstrap-css@3.2.0" data-semver="3.2.0" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
     
-    <div class="ios_nav_b">
-            <img class="one" src="img/ssb.png"/>
-            <img class="two" src="img/941.png"/>
-            <img class="three" src="img/iosbat.png"/>
+       <div class="ios_nav_b">
+            <img class="one" src="img/wifi_sig.png"/>
+            <img class="two" src="img/time.png"/>
+            <img class="three" src="img/battery.png"/>
         </div>
         <div class="cc_nav">
             <i class="fa fa-bars menu_burger"></i>
@@ -42,24 +42,6 @@
     
     <script type="text/javascript" src="libs/jquery.min.js"></script>
     <script type="text/javascript" src="src/jquery.jInvertScroll.js"></script>
-    <script type="text/javascript">
-    (function($) {
-        var elem = $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
-            {
-            height: 9000,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
-            onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
-                console.log(percent);
-            }
-        });
-        $(window).resize(function() {
-          if ($(window).width() <= 768) {
-            elem.destroy();
-          }
-          else {
-            elem.reinitialize();
-          }
-        });
-    }(jQuery));
-    </script>
+    <script type="text/javascript" src="scroll_config.js"></script>
 </body>
 </html>
