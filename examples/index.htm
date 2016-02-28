@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>jInvertScroll Demo Page</title>
+    <link rel="stylesheet" href="css/example.css"/>
+    <link data-require="bootstrap-css@3.2.0" data-semver="3.2.0" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="ios_nav_b">
+            <img class="one" src="ssb.png"/>
+            <img class="two" src="941.png"/>
+            <img class="three" src="iosbat.png"/>
+        </div>
+        <div class="cc_nav">
+            <i class="fa fa-bars menu_burger"></i>
+            <i class="fa fa-angle-left going_back"></i>
+            <div class="cc_nav_cen">Home</div>
+            <div class="cc_sort">Search</div>
+        </div>
+        <div class="innr_block_61p_fixed"></div>
+        <div class="innr_block_61p"></div>
+    
+    <div class="horiz_tl scroll">
+       
+       
+     
+          <div class="">sss</div>
+       
+       
+       
+    </div>
+    <div class="middle scroll">
+        <img src="images/middle.png" alt="" />
+    </div>
+    <div class="front scroll">
+        <img src="images/front.png" alt="" />
+    </div>
+    
+    <script type="text/javascript" src="../libs/jquery.min.js"></script>
+    <script type="text/javascript" src="../src/jquery.jInvertScroll.js"></script>
+    <script type="text/javascript">
+    (function($) {
+        var elem = $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
+            {
+            height: 9000,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
+            onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
+                console.log(percent);
+            }
+        });
+        $(window).resize(function() {
+          if ($(window).width() <= 768) {
+            elem.destroy();
+          }
+          else {
+            elem.reinitialize();
+          }
+        });
+    }(jQuery));
+    </script>
+</body>
+</html>
