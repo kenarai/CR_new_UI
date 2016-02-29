@@ -10,14 +10,14 @@ body {
     overflow-x: hidden;
     background-color: #fbfbfb !important;
 }
+li {
+    list-style-type: none;
+    padding-left: 0px;
+}
 .scroll {
     position: fixed;
     top: 61px;
     left: 0;
-}
-.horizon {
-    z-index: 1;
-    width: 5000px;
 }
 .featured_show {
     z-index: 500;
@@ -98,13 +98,6 @@ body {
     border-radius: 4px;
     right: 10px;
 }
-.timeline_block {
-    width: 9000px;
-    height: 50px;
-    background: #FBFBFB;
-    text-align: left;
-    color: #F78C24;
-}
 .innr_block_61p_fixed {
     width: 100%;
     position: fixed;
@@ -117,3 +110,38 @@ body {
     position: relative;
     height: 61px;
 }
+
+/***************************
+Timeline block CSS
+***************************/
+
+
+.timeline_block {
+    width: 9000px;
+    height: 50px;
+    background: #FBFBFB;
+    text-align: left;
+    color: #F78C24;
+}
+.day_block {
+    white-space: nowrap;
+}
+.day_block li {
+height: 8px;
+width: 1px;
+background: #F78C24;
+position: relative;
+display: inline-block;
+margin-right: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
