@@ -21,7 +21,7 @@ body * {
     -webkit-transform: translateZ(-0.4px) scale(1.4);
     transform: translateZ(-0.4px) scale(1.4);
     z-index: 2;
-    top: 490px;
+    top: 435px;
     left: 532px;
     position: absolute;
     background-color: transparent;
@@ -31,10 +31,13 @@ body * {
 .content_block {
     display: inline-block;
     width: 720px;
-    height: 410px;
+    max-height: 410px;
     margin-left: 10px;
     background: #ddd;
     margin-top: 10px;
+    height: 370px;
+    overflow: hidden;
+    position: relative;
 }
 .horizontal_scroll {
     overflow: hidden;
@@ -178,10 +181,11 @@ p {
     margin: 0 auto;
     height: 768px;
     border: 1px solid #ddd;
+    background-color: #fbfbfb;
+    margin-top: 50px;
 }
 .smaller_title {
     width: 390px;
-    background: #fff;
     position: relative;
     display: inline-block;
     margin-right: 7px;
@@ -234,12 +238,49 @@ p {
     font-weight: 400;
 }
 
-
-
-
-
-
-
+.oh_if {
+    position: absolute;
+    width: 106%;
+    height: 106%;
+    overflow: hidden;
+    margin-top: -3%;
+    margin-left: -3%;
+}
+.cover_layer {
+    position: absolute;
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    text-align: center;
+    z-index: 10;
+    position: relative;
+    margin-bottom: 6px;
+}
+.title_cover_p {
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    text-align: center;
+    z-index: 10;
+    position: relative;
+    margin-bottom: 6px;
+}
+.dramatic_obi_fixed_s {
+    height: 195px;
+    left: 0px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 30;
+background: transparent linear-gradient(to bottom, transparent 0px, #000 100%) repeat scroll 0px 0px;
+opacity: 0.7;
+}
 
 
 
