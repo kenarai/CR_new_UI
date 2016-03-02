@@ -113,10 +113,6 @@ body * {
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
     white-space: normal;
 }
-
-
-/* For Demo Purpose*/
-
 h1 {
     color: #2E3B4E;
     font-weight: 300;
@@ -127,80 +123,105 @@ h1 {
 h2 {
     font-weight: 300;
 }
-.made_by_me {
-    color: #2E3B4E;
-    font-weight: 300;
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 16px !important;
-}
 p {
     font-size: 13px !important;
     line-height: 24.1px !important;
     color: #5F6A7D !important;
 }
-.quick_headline {
-    font-size: 14px;
-    font-weight: 700;
-    color: #545454;
-    margin-left: 20px;
-    margin-bottom: 10px;
+
+
+/***************************
+  iOS mockups
+***************************/
+
+.ios_nav_b {
+    position: fixed;
+    width: 100%;
+    height: 15px;
+    z-index: 101;
 }
-.fork_me_btn {
-    display: inline-block !important;
-    margin: 0px 3px 0px 0px;
-    font-size: 13px;
-    color: rgb(110, 114, 122);
-    border-width: 1px;
-    -moz-border-top-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    background: -webkit-linear-gradient(top, #fcfcfc, #f0f0f0);
-    border-image: none;
-    border-radius: 3px;
-    background: transparent -moz-linear-gradient(center top, rgb(252, 252, 252), rgb(240, 240, 240)) repeat scroll 0% 0%;
-    background: -moz-linear-gradient(top, #fcfcfc, #f0f0f0);
-    background: -ms-linear-gradient(top, #fcfcfc, #f0f0f0);
-    line-height: 27px;
-    padding: 3px 9px;
-    height: auto;
-    width: auto;
-    opacity: 1;
-    box-shadow: 0px 1px 0px rgb(242, 242, 242);
-    font-weight: 700;
-    position: relative;
-    border-color: #CCCECF;
-    border-style: solid;
-    min-width: 40px;
-    margin-right: 3px;
-    text-decoration: none;
-    border: 1px solid rgb(204, 206, 207);
-    margin-right: 15px;
+.ios_nav_b .one {
+    width: 71px;
+    margin-left: 5px;
+    position: absolute;
+    top: 6.4px;
 }
-.user_actions {
-    position: relative;
-    width: 600px;
-    margin: 0 auto;
-    display: block;
-    white-space: nowrap;
+.ios_nav_b .two {
+    width: 42px;
     text-align: center;
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    margin-left: -21px;
 }
-.download_btn {
-    background: -moz-linear-gradient(center bottom, #508BC2, #5A94CA) repeat scroll 0 0 transparent;
-    text-decoration: none;
-    color: #FFF;
-    display: inline-block;
-    vertical-align: middle;
-    background: -moz-linear-gradient(center top, #538CC4, #4781B9) repeat scroll 0 0 transparent;
-    border: 1px solid #396C9D;
-    border-radius: 3px;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.11), 0px 1px 1px rgba(175, 207, 235, 0.14) inset;
-    text-shadow: 0 -1px 0 #457BAC;
-    color: #FFF;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 27px;
-    padding: 3px 9px;
-    background: #538CC4;
+.ios_nav_b .three {
+    width: 47px;
+    position: absolute;
+    right: 5px;
+    top: 6px;
 }
+.cc_nav {
+    position: fixed;
+    width: 100%;
+    height: 15px;
+    z-index: 101;
+}
+.menu_burger {
+    color: #F78C24;
+    position: absolute;
+    font-size: 20px;
+    padding-top: 33px;
+    padding-left: 10px;
+}
+.going_back {
+    position: absolute;
+    color: #F78C24;
+    font-size: 31px;
+    top: 26px;
+    left: 10px;
+    opacity: 0;
+}
+.cc_nav_cen {
+    text-align: center;
+    color: #F78C24;
+    font-size: 23px;
+    font-weight: 100;
+    padding-top: 33px;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.cc_sort {
+    position: absolute;
+    top: 31px;
+    border: 2px solid #F78C24;
+    color: #F78C24;
+    padding: 1px 10px;
+    line-height: 22px;
+    height: 26px !important;
+    border-radius: 4px;
+    right: 10px;
+}
+.innr_block_61p_fixed {
+    width: 100%;
+    position: fixed;
+    height: 61px;
+    z-index: 100;
+    background: #FBFBFB;
+}
+.innr_block_61p {
+    width: 100%;
+    position: relative;
+    height: 61px;
+}
+
+
+
+
+
+
+
+
