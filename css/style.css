@@ -21,72 +21,25 @@ body * {
     -webkit-transform: translateZ(-0.4px) scale(1.4);
     transform: translateZ(-0.4px) scale(1.4);
     z-index: 2;
-    top: 200px;
-    left: 200px;
+    top: 490px;
+    left: 532px;
     position: absolute;
-    width: 60px;
-    height: 60px;
-    background-color: #6ecadc;
-    border-radius: 50%;
-}
-.prlx_block_2 {
-    -webkit-transform: translateZ(0.2px) scale(0.8);
-    transform: translateZ(0.2px) scale(0.8);
-    z-index: 3;
-    top: 200px;
-    left: 500px;
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    background-color: #3eb991;
-    border-radius: 50%;
-}
-.prlx_block_3 {
-    -webkit-transform: translateZ(0.5px) scale(0.5);
-    transform: translateZ(0.5px) scale(0.5);
-    z-index: 4;
-    top: 80px;
-    left: 900px;
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    background-color: #e01563;
-    border-radius: 50%;
-}
-.prlx_block_4 {
-    -webkit-transform: translateZ(-0.9px) scale(1.9);
-    transform: translateZ(-0.9px) scale(1.9);
-    z-index: 5;
-    top: 150px;
-    left: 900px;
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    background-color: #e9a820;
-    border-radius: 50%;
+    background-color: transparent;
+    display: inline-block;
+    white-space: nowrap;
 }
 .content_block {
     display: inline-block;
-    width: 450px;
-    height: 300px;
-    margin-left: 20px;
-    opacity: 0.5;
-}
-.slack_blue {
-    background-color: #6ecadc;
-}
-.slack_green {
-    background-color: #3eb991;
-}
-.slack_red {
-    background-color: #e01563;
-}
-.slack_yellow {
-    background-color: #e9a820;
+    width: 720px;
+    height: 410px;
+    margin-left: 10px;
+    background: #ddd;
+    margin-top: 10px;
 }
 .horizontal_scroll {
     overflow: hidden;
     width: auto;
+    height: 705px;
 }
 .prlx_enabler {
     overflow: auto;
@@ -95,6 +48,8 @@ body * {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     white-space: nowrap;
+    height: 100%;
+    position: relative;
 }
 .vertical_scroll {
     position: relatve;
@@ -124,9 +79,9 @@ h2 {
     font-weight: 300;
 }
 p {
-    font-size: 13px !important;
-    line-height: 24.1px !important;
-    color: #5F6A7D !important;
+    font-size: 13px;
+    line-height: 24.1px;
+    color: #5F6A7D;
 }
 
 
@@ -217,6 +172,70 @@ p {
     position: relative;
     height: 61px;
 }
+.ipad_mockup_frame {
+    position: relative;
+    width: 1024px;
+    margin: 0 auto;
+    height: 768px;
+    border: 1px solid #ddd;
+}
+.smaller_title {
+    width: 390px;
+    background: #fff;
+    position: relative;
+    display: inline-block;
+    margin-right: 7px;
+    white-space: normal;
+}
+.smaller_title .left {
+    position: relative;
+    float: left;
+    width: 70px;
+}
+.smaller_title .left .st_img {
+    width: 70px;
+    background-size: cover;
+    background-position: center center;
+    height: 105px;
+    z-index: 1;
+    float: left;
+}
+.smaller_title .middle {
+    float: left;
+    width: calc(100% - 120px);
+    padding-left: 15px;
+    vertical-align: top;
+}
+.smaller_title .right {
+    position: relative;
+    float: left;
+    width: 50px;
+}
+.ad_ma {
+    color: #333;
+    font-size: 18px;
+    vertical-align: top;
+    margin-top: -1px;
+    font-weight: 100;
+}
+.cc_review {
+    width: 100%;
+    clear: both;
+    float: none;
+    display: inline-block;
+    font-size: 7.5px;
+    padding-bottom: 3px;
+    color: #F78C24;
+    line-height: 18px;
+}
+.smaller_title p {
+    font-size: 11.4px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+
+
 
 
 
