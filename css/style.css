@@ -54,7 +54,7 @@ body * {
     transform-style: preserve-3d;
     white-space: nowrap;
     position: relative;
-    height: calc(100% + 10px);
+    height: calc(100% + 13px);
 }
 .vertical_scroll {
     position: relatve;
@@ -166,7 +166,7 @@ p {
     right: 10px;
 }
 .innr_block_61p_fixed {
-    width: 1024px;
+    width: 1022px;
     position: fixed;
     height: 61px;
     z-index: 100;
