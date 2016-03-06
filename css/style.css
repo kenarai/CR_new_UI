@@ -52,8 +52,8 @@ body * {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     white-space: nowrap;
-    height: 100%;
     position: relative;
+    height: calc(100% + 10px);
 }
 .vertical_scroll {
     position: relatve;
