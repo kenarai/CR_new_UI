@@ -26,6 +26,8 @@
             <div class="innr_block_61p"></div>
             <div class="horizontal_scroll">
                 <div class="prlx_enabler">
+            
+            
                     <div class="prlx_block_1">
                         <div class="smaller_title">
                             <div class="left">
@@ -181,9 +183,32 @@
                             <div class="right"></div>
                         </div>
                     </div>
+                    
+                    
                     <div class="content_block">
                         <div class="cover_layer" style="background-image: url('http://genkinahito.files.wordpress.com/2013/07/attack-on-titan-cityscape.png');">
                             <div class="dramatic_obi_fixed_s"></div>
+                            
+                            
+   <div class="paper">
+      <p id="num">1</p>
+      <div class="ripple"></div>
+   </div>
+
+                            
+                            <div class="content_holder_for_big_titles">
+                              <h1>Attack on titan</h1>
+                              <div class="rating">
+                                    <i class="fa fa-circle"></i>
+                                    <i class="fa fa-circle"></i>
+                                    <i class="fa fa-circle"></i>
+                                    <i class="fa fa-circle"></i>
+                                    <i class="fa fa-circle"></i>
+                              </div>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreLorem ipsum dolor si ...</p>
+                            </div>
+                            <div class="player_ic"></div>
+                            
                         </div>
                     </div>
                     <div class="content_block">
@@ -226,5 +251,17 @@
             	});
             });
         </script>
+        <script>$(document).ready(function() {
+   $(".paper").mousedown(function(e) {
+      var ripple = $(this).find(".ripple");
+      ripple.removeClass("animate");
+      var x = parseInt(e.pageX - $(this).offset().left) - (ripple.width() / 2);
+      var y = parseInt(e.pageY - $(this).offset().top) - (ripple.height() / 2);
+      ripple.css({
+         top: y,
+         left: x
+      }).addClass("animate");
+   });
+});</script>
     </body>
 </html>
