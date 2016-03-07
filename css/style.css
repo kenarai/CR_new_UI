@@ -29,6 +29,17 @@ body * {
     display: inline-block;
     white-space: nowrap;
 }
+.prlx_block_2 {
+    -webkit-transform: translateZ(-0.4px) scale(1.4);
+    transform: translateZ(-0.4px) scale(1.4);
+    z-index: 2;
+    top: -125px;
+    left: -32px;
+    position: absolute;
+    background-color: transparent;
+    display: inline-block;
+    white-space: nowrap;
+}
 .content_block {
     display: inline-block;
     width: 660px;
@@ -45,6 +56,7 @@ body * {
     width: auto;
     height: 505px;
     margin-top: 45px;
+    position: relative;
 }
 .prlx_enabler {
     overflow: auto;
@@ -362,7 +374,11 @@ border-bottom: 15px solid transparent;
     height: 767px;
 }
 
-
+.second_row_manual_adj {
+    width: 1024px;
+    position: fixed;
+    top: 665px;
+}
 
 
 
